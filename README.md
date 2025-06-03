@@ -11,6 +11,7 @@ Content-Based Filtering: Recommends similar products based on features like cate
 Collaborative Filtering: Suggests products using matrix factorization (SVD) based on what similar users liked.
 
 ## 🗂️ Project Structure
+```plaintext
 product-recommender-system/
 ├── basic_version/
 │   └── basic_recommender.py
@@ -22,9 +23,10 @@ product-recommender-system/
 ├── run.py
 ├── requirements.txt
 └── README.md
+```
 
 ## ⚙️ Requirements
-Python 3.11 or higher
+Python 3.11 or higher<br>
 Pandas, Scikit-learn, Surprise, numpy
 
 ## Install all dependencies via:
@@ -66,23 +68,23 @@ docker run -it --rm -e VERSION=advanced product-recommender
 ## 📊 How It Works
 The Product Recommendation System leverages two core machine learning approaches:
 
-### 🧠 Content-Based Filtering
-• Analyzes product features like name, category, price, and description.
-• Computes cosine similarity between products.
-• Suggests similar items to what the user views or selects.
+### 🧠 Content-Based Filtering 
+• Analyzes product features like name, category, price, and description.<br>  
+• Computes cosine similarity between products.<br>
+• Suggests similar items to what the user views or selects.<br>  
 
 ### 🤝 Collaborative Filtering (SVD)
-• Uses user-item interactions (ratings matrix).
-• Applies matrix factorization to uncover latent user preferences.
-• Recommends products based on the behavior of similar users.
+• Uses user-item interactions (ratings matrix).<br> 
+• Applies matrix factorization to uncover latent user preferences.<br>  
+• Recommends products based on the behavior of similar users.<br> 
 
 
 ## 🛠️ Technologies Used
-Technology	Purpose
-Python:	Core backend and ML processing
-Scikit-learn: For content-based filtering and preprocessing
-Surprise: Collaborative filtering via SVD
-Docker: Containerized deployment
+Technology	Purpose<br>
+Python:	Core backend and ML processing<br>
+Scikit-learn: For content-based filtering and preprocessing<br>
+Surprise: Collaborative filtering via SVD<br>
+Docker: Containerized deployment<br>
 
 
 
@@ -91,9 +93,9 @@ This project is licensed under the Apache License 2.0.
 See the LICENSE file for details.
 
 ## 🤝 Contributing
-We welcome contributions to improve the recommendation system!
-If you have suggestions, bug reports, or want to submit a feature, feel free to:
+We welcome contributions to improve the recommendation system!<br>
+If you have suggestions, bug reports, or want to submit a feature, feel free to:<br>
 
-• Open an issue
+• Open an issue<br>
 • Submit a pull request
 
