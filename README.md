@@ -16,17 +16,17 @@ product-recommender-system/
 ├── requirements.txt                 # Python dependencies
 └── README.md                       
 
-1️⃣ Install Dependencies
+1️⃣ Install Dependencies:
 
 ```bash
 pip install -r requirements.txt
 
-2️⃣ Run Basic Version
+2️⃣ Run Basic Version:
 
 ```bash
 python basic_version/basic_recommender.py
 
-3️⃣ Run Advanced Version
+3️⃣ Run Advanced Version:
 
 ```bash
 python advanced_version/advanced_product_recommender.py
