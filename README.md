@@ -48,11 +48,13 @@ cd product-recommendation-system
 ```bash
 pip install -r requirements.txt
 ```
+
 3. Build the Docker image:
 
 ```bash
 docker build -t product-recommendor .
 ```
+
 4. Run the Docker container:
 if you want to run the basic version:
 
@@ -65,17 +67,18 @@ if you want to run the advanced version:
 docker run -it --rm -e VERSION=advanced product-recommender
 ```
 
+
 ## 📊 How It Works
 The Product Recommendation System leverages two core machine learning approaches:
 
 ### 🧠 Content-Based Filtering 
-• Analyzes product features like name, category, price, and description.<br>  
+• Analyzes product features like name, category, price, and description.<br>
 • Computes cosine similarity between products.<br>
-• Suggests similar items to what the user views or selects.<br>  
+• Suggests similar items to what the user views or selects.<br>
 
 ### 🤝 Collaborative Filtering (SVD)
-• Uses user-item interactions (ratings matrix).<br> 
-• Applies matrix factorization to uncover latent user preferences.<br>  
+• Uses user-item interactions (ratings matrix).<br>
+• Applies matrix factorization to uncover latent user preferences.<br>
 • Recommends products based on the behavior of similar users.<br> 
 
 
@@ -86,11 +89,6 @@ Scikit-learn: For content-based filtering and preprocessing<br>
 Surprise: Collaborative filtering via SVD<br>
 Docker: Containerized deployment<br>
 
-
-
-## 📜 License
-This project is licensed under the Apache License 2.0.
-See the LICENSE file for details.
 
 ## 🤝 Contributing
 We welcome contributions to improve the recommendation system!<br>
