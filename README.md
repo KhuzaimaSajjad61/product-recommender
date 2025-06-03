@@ -1,27 +1,32 @@
-# Basic Product Recommendation System
+# 🛒 Product Recommendation System (Basic + Advanced Versions)
 
-This is a basic AI-based recommender system that suggests products to users based on similarity with other users, using collaborative filtering.
+This repository contains two progressively developed versions of a product recommendation system — from a simple cosine similarity-based model to a more advanced model using matrix factorization (SVD). These tools simulate how modern e-commerce platforms personalize product suggestions to boost user engagement and sales.
 
-## 🧰 Tools Used
-- Python
-- Pandas
-- Scikit-learn
-- Cosine Similarity
+---
 
-## 🧠 What It Does
-- Builds a user-product matrix from rating data
-- Calculates user similarity using cosine similarity
-- Recommends products that similar users have liked but the current user hasn't rated yet
+## 📁 Project Structure
 
-## 📁 Dataset
-Dummy dataset of 5 users and their ratings on products like:
-- Laptop
-- Monitor
-- Mouse
-- Keyboard
+```plaintext
+product-recommender-system/
+├── basic_version/
+│   └── basic_recommender.py         # Simple item-based recommender
+├── advanced_version/
+│   └── advanced_product_recommender.py  # Item-based + SVD recommender
+├── user_ratings.csv                 # Sample user-product rating data
+├── requirements.txt                 # Python dependencies
+└── README.md                       
 
-## 🚀 How to Run
+1️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
-python product_recommender.py
+
+2️⃣ Run Basic Version
+
+```bash
+python basic_version/basic_recommender.py
+
+3️⃣ Run Advanced Version
+
+```bash
+python advanced_version/advanced_product_recommender.py
