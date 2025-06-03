@@ -1,0 +1,16 @@
+user,product,rating
+Alice,Laptop,5
+Alice,Mouse,4
+Alice,Keyboard,5
+Bob,Laptop,5
+Bob,Keyboard,4
+Bob,Monitor,4
+Charlie,Mouse,3
+Charlie,Keyboard,2
+Charlie,Monitor,5
+David,Laptop,3
+David,Monitor,5
+David,Mouse,4
+Eva,Keyboard,5
+Eva,Mouse,5
+Eva,Laptop,4
