@@ -1,24 +1,57 @@
-# 🛒 Product Recommendation System (Basic + Advanced Versions)
 
-This repository contains two progressively developed versions of a product recommendation system — from a simple cosine similarity-based model to a more advanced model using matrix factorization (SVD). These tools simulate how modern e-commerce platforms personalize product suggestions to boost user engagement and sales.
+# ✅ Product Recommendation System (Basic + Advanced)
 
----
+What it is:
 
-## 📁 Project Structure
+A two-level recommendation system for an online store.
 
-```plaintext
+Basic version uses cosine similarity
+
+Advanced version uses collaborative filtering (SVD)
+
+## Skills shown:
+
+Recommendation logic
+
+Item-based filtering
+
+Collaborative filtering
+
+Data preprocessing
+
+## Tools used:
+
+Python
+
+Pandas
+
+Scikit-learn
+
+Surprise
+
+## 🗂 Folder Structure
 product-recommender-system/
 ├── basic_version/
-│   └── basic_recommender.py         # Simple item-based recommender
+│   └── basic_recommender.py
 ├── advanced_version/
-│   └── advanced_product_recommender.py  # Item-based + SVD recommender
-├── user_ratings.csv                 # Sample user-product rating data
-├── requirements.txt                 # Python dependencies
-└── README.md                       
+│   └── advanced_product_recommender.py
+├── user_ratings.csv
+├── requirements.txt
+└── README.md
 
-Install Dependencies And Run:
+
+## 🧠 Version Summary
+Version	Method	Main Libs
+Basic	Cosine similarity	pandas, sklearn
+Advanced	SVD (Collaborative)	pandas, surprise
+
+## ⚙️ How to Run
 
 ```bash
 pip install -r requirements.txt
+If you face issues with surprise, run:
+pip install numpy==1.26.4
 python basic_version/basic_recommender.py
 python advanced_version/advanced_product_recommender.py
+
+
